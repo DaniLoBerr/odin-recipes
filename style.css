@@ -3,24 +3,25 @@ body {
   background-color: rgba(255, 250, 200, 0.5);
 }
 
-.heading {
+.header {
+  background-color: #ECE2AA;
   text-align: center;
 }
 
-.heading.header-container {
-  background-color: #ECE2AA;
-}
-
-.heading.header-container .main-heading {
+.header .main-heading {
   font-size: 50px;
 }
 
-.heading.header-container .sec-heading {
+.header .sub-heading {
   font-style: italic;
   font-size: 25px;
 }
 
-.links-container {
+.sec-heading {
+  font-size: 25px;
+}
+
+.links {
   background-color: rgba(255, 255, 50, 0.3);
   width: 300px;
   height: auto;
@@ -28,10 +29,20 @@ body {
   font-weight: 700;
 }
 
-.links-container .heading.links-heading {
+.links .links-heading {
+  text-align: center;
   font-size: 20px;
 }
 
-.links-container .link a {
+.links .link a {
   color: hsl(280, 50%, 50%);
+}
+
+.main-img-recipe {
+  width: 500px;
+  height: auto;
+}
+
+.description, .ingredients, .steps {
+  background-color: rgba(255, 255, 50, 0.3);
 }
