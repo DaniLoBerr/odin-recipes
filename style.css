@@ -1,0 +1,37 @@
+body {
+  font-family: Verdana, Arial, Tahoma, sans-serif;
+  background-color: rgba(255, 250, 200, 0.5);
+}
+
+.heading {
+  text-align: center;
+}
+
+.heading.header-container {
+  background-color: #ECE2AA;
+}
+
+.heading.header-container .main-heading {
+  font-size: 50px;
+}
+
+.heading.header-container .sec-heading {
+  font-style: italic;
+  font-size: 25px;
+}
+
+.links-container {
+  background-color: rgba(255, 255, 50, 0.3);
+  width: 300px;
+  height: auto;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.links-container .heading.links-heading {
+  font-size: 20px;
+}
+
+.links-container .link a {
+  color: hsl(280, 50%, 50%);
+}
