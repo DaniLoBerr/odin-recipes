@@ -39,10 +39,14 @@ body {
 }
 
 .main-img-recipe {
-  width: 500px;
-  height: auto;
+  width: auto;
+  height: 500px;
 }
 
 .description, .ingredients, .steps {
   background-color: rgba(255, 255, 50, 0.3);
+}
+
+.diners {
+  font-style: italic;
 }
